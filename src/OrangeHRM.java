@@ -42,6 +42,10 @@ public class OrangeHRM {
         //Select Logout button
         driver.findElement(By.partialLinkText("Logout")).click();
 
+        Thread.sleep(7000);
+        //close browser
+        driver.close();
+
 
 
     }
